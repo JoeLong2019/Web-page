@@ -1,9 +1,22 @@
-var cell =  document.getElementById("something")
-console.log(cell)
+var grid = []; // set grid 
+grid[0] = [];
+grid[1] = [];
+grid[2] = [];
 
-cell.addEventListener("click", getPlayerMove)
+const cells = document.querySelectorAll(".cell")
 
-function getPlayerMove(){
-    var moveNum = X
-    console.log(moveNum)
+cells.forEach(function(cell) {
+    cell.addEventListener("click", function(e) {
+        cell.innerHTML = "X";
+
+        while next("click")
+        cells.forEach(function(cell) {
+            cell.addEventListener("click", function(e) {
+                cell.innerHTML = "O";
+    })
+});        
+    })
+});
+function restart() {
+    document.location.href = "Restart";
 }
